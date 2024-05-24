@@ -1,28 +1,25 @@
 # Proyecto Final Coder House - Python
-#### Comisión: 27615
-#### Alumno: Johannes Pérez
+#### Comisión: 54135
+#### Alumno: Valentino Galfré
 
 ## Nombre del Proyecto
-Venta y Permuta de Instrumentos Musicales
+Galfre´s Zone
 
 ## Versión
 1.0
 
 ## Descripción del Proyecto
-Página Web destinada a usuarios que deseen vender o permutar instrumentos musicales.
+Página Web destinada a usuarios que deseen leer o postear blogs de todo tipo.
 
 A fin de navegar por las secciones de la página web, el usuario será requerido iniciar sesión o registrarse en caso de no contar con usuario o contraseña. En ambas opciones, una vez la página valide la autenticación del usuario, este será redirigido al inicio de la página web.
 
 Los usuarios pueden realizar las siguientes accciones:
-- Publicar instrumentos musicales
-- Visualizar instrumentos musicales publicados, los cuales están distribuidos en las secciones "Guitarras", "Bajos", "Pedales", "Amplificadores", "Teclados" y "Otros"
-- Comentar instrumentos musicales
+- Publicar Blogs
+- Visualizar otros Blogs
 - Editar el perfil de Usuario
 - Cambiar la contraseña de Usuario
 - Cerrar Sesión
 - Login en caso de haber cerrado sesión
-
-Nota: La opción de editar y eliminar instrumentos musicales solo le está permitido al autor de la publicación del instrumento.
 
 ## Tecnología Utilizada
 
@@ -36,13 +33,27 @@ Nota: La opción de editar y eliminar instrumentos musicales solo le está permi
 - Python 3.10.4
 - Django 4.0
 
-## Pruebas Realizadas
+# Casos de Prueba para la Página Web Galfre's Zone
 
-Ver archivo titulado "Pruebas Proyecto Python CH.xlsx" el cual se encuentra en el presente repositorio https://github.com/johannesgperez/ProyectoFinalMain.git
+## Caso de Prueba 1: Verificar carga de la página principal (Home)
+
+**Descripción:** Este caso de prueba verifica que la página principal (blog_list) se cargue correctamente.
+
+**Pasos para Reproducir:**
+1. Abrir un navegador web.
+2. Ingresar la URL de la página principal (http://127.0.0.1:8000/) en la barra de direcciones.
+3. Presionar Enter.
+4. Observar la carga de la página.
+
+**Resultados Esperados:**
+- La página principal se carga correctamente sin errores.
+- Se muestran enlaces a las secciones "Home", "Blog", y "About Me" en la barra de navegación.
+- Se muestra un mensaje de bienvenida en la parte superior de la página.
+- El pie de página (footer) contiene el texto de copyright y un enlace para volver arriba.
 
 ## Video Demostración
 
-https://youtu.be/O3tgo0Txl9Q
+
 
 
 
